@@ -1,0 +1,231 @@
+#########################################################################################################
+INSERT INTO User (id, email, password, name)
+VALUES (1,'user1@example.com', 'user123','user1');
+INSERT INTO User (id,email, password,name)
+VALUES (2,'user2@example.com', 'user234','user2');
+INSERT INTO User (id,email, password,name )
+VALUES ( 3,'user3@example.com', 'user345','user3');
+INSERT INTO User (id,email, password,name )
+VALUES (4,'user4@example.com', 'user456','user4');
+INSERT INTO User (id,email, password,name )
+VALUES ( 5,'user5@example.com', 'user567','user5');
+INSERT INTO User (id,email, password,name )
+VALUES ( 6,'user6@example.com', 'user678','user6');
+INSERT INTO User (id,email, password,name )
+VALUES ( 7,'user7@example.com', 'user789','user7');
+INSERT INTO User (id,email, password,name )
+VALUES ( 8,'user8@example.com', 'user890','user8');
+INSERT INTO User (id,email, password,name )
+VALUES ( 9,'user9@example.com', 'user901','user9');
+INSERT INTO User (id,email, password,name)
+VALUES ( 10,'user10@example.com', 'user1010','user10');
+INSERT INTO User (id,email, password,name)
+VALUES ( 11,'user11@example.com', 'user1011','user11');
+INSERT INTO User (id,email, password,name )
+VALUES ( 12,'user12@example.com', 'user1012','user12');
+INSERT INTO User (id,email, password,name )
+VALUES ( 13,'user13@example.com', 'user1013','user13');
+INSERT INTO User (id,email, password,name )
+VALUES ( 14,'user14@example.com', 'user1014','user14');
+INSERT INTO User (id,email, password,name )
+VALUES ( 15,'user15@example.com', 'user1015','user15');
+#########################################################################################################
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (1,'ad1', 'ima1', 'desc1','Cairo','Car',1,'user1','0111','note1');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (16,'ad16', 'ima16', 'desc16','Suez','Home',1,'user1','0111','note16'); 
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (17,'ad17', 'ima17', 'desc17','Alex','Job',1,'user1','0111','note17');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (2,'ad2', 'ima2', 'desc2','Giza','Car',2,'user2','0112','note2');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (18,'ad18', 'ima18', 'desc18','Alex','Job',2,'user2','0112','note18');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (19,'ad19', 'ima19', 'desc19','Cairo','Home',2,'user2','0112','note19');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (3,'ad3', 'ima3', 'desc3','Suez','Car',3,'user3','0113','note3');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (20,'ad20', 'ima20', 'desc20','Alex','Home',3,'user3','0113','note20');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (21,'ad21', 'ima21', 'desc21','Cairo','Job',3,'user3','0113','note21');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (4,'ad4', 'ima4', 'desc4','Alex','Car',4,'user4','0114','note4');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (22,'ad22', 'ima22', 'desc22','Giza','Job',4,'user4','0114','note22');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (23,'ad23', 'ima23', 'desc23','Cairo','Home',4,'user4','0114','note23');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (5,'ad5', 'ima5', 'desc5','Giza','Car',5,'user5','0115','note5');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (24,'ad24', 'ima24', 'desc24','Cairo','Job',5,'user5','0115','note24');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (25,'ad25', 'ima25', 'desc25','Suez','Home',5,'user5','0115','note25');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (6,'ad6', 'ima6', 'desc6','Cairo','Home',6,'user6','0116','note6');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (26,'ad26', 'ima26', 'desc26','Suez','Job',6,'user6','0116','note26');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (27,'ad27', 'ima27', 'desc27','Alex','Car',6,'user6','0116','note27');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (7,'ad7', 'ima7', 'desc7','Suez','Home',7,'user7','0117','note7');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (28,'ad28', 'ima28', 'desc28','Alex','Car',7,'user7','0117','note28');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (29,'ad29', 'ima29', 'desc29','Cairo','Job',7,'user7','0117','note29');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (8,'ad8', 'ima8', 'desc8','Alex','Home',8,'user8','0118','note8');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (30,'ad30', 'ima30', 'desc30','Giza','Job',8,'user8','0118','note30');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (31,'ad31', 'ima31', 'desc31','Suez','Car',8,'user8','0118','note31');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (9,'ad9', 'ima9', 'desc9','Suez','Home',9,'user9','0119','note9');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (32,'ad32', 'ima32', 'desc32','Alex','Car',9,'user9','0119','note32');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (33,'ad33', 'ima33', 'desc33','Giza','Job',9,'user9','0119','note33');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (10,'ad10', 'ima10', 'desc10','Giza','Home',10,'user10','01110','note10');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (34,'ad34', 'ima34', 'desc34','Cairo','Job',10,'user10','01110','note34');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (35,'ad35', 'ima35', 'desc35','Alex','Car',10,'user10','01110','note35');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (11,'ad11', 'ima11', 'desc11','Cairo','Job',11,'user11','01111','note11');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (36,'ad36', 'ima36', 'desc36','Suez','Car',11,'user11','01111','note36');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (37,'ad37', 'ima37', 'desc37','Alex','Home',11,'user11','01111','note37');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (12,'ad12', 'ima12', 'desc12','Alex','Job',12,'user12','01112','note12');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (38,'ad38', 'ima38', 'desc38','Giza','Home',12,'user12','01112','note38');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (39,'ad39', 'ima39', 'desc39','Suez','Car',12,'user12','01112','note39');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (13,'ad13', 'ima13', 'desc13','Cairo','Job',13,'user13','01113','note13');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (40,'ad40', 'ima40', 'desc40','Alex','Home',13,'user13','01113','note40');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (41,'ad41', 'ima41', 'desc41','Giza','Car',13,'user13','01113','note41');
+
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (14,'ad14', 'ima14', 'desc14','Alex','Job',14,'user14','01114','note14');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (42,'ad42', 'ima42', 'desc42','Suez','Car',14,'user14','01114','note42');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (43,'ad43', 'ima43', 'desc43','Cairo','Home',14,'user14','01114','note43');
+    
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (15,'ad15', 'ima15', 'desc15','Suez','Job',15,'user15','01115','note15');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (44,'ad44', 'ima44', 'desc44','Cairo','Car',15,'user15','01115','note44');
+INSERT INTO Ad (id,title,image,description,place,category,Userid,provider_name,provider_mobile,note)
+VALUES (45,'ad45', 'ima45', 'desc45','Giza','Home',15,'user15','01115','note45');
+    
+#########################################################################################################
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (1,'Honda','mod1',1.0,1000,1.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (2,'Honda','mod2',2.0,2000,2.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (3,'Opel','mod3',3.0,3000,3.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (4,'Honda','mod4',4.0,4000,4.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (5,'Honda','mod5',5.0,5000,5.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (27,'Opel','mod27',27.0,27000,27.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (28,'Honda','mod28',28.0,28000,28.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (31,'Opel','mod31',31.0,31000,31.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (32,'Opel','mod32',32.0,32000,32.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (35,'Opel','mod35',35.0,35000,35.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (36,'Honda','mod36',36.0,36000,36.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (39,'Honda','mod39',39.0,39000,39.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (41,'Honda','mod41',41.0,41000,41.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (42,'Opel','mod42',42.0,42000,42.0);
+INSERT INTO Car (adid,brand,model,price,kms,capacity)
+VALUES (44,'Honda','mod44',44.0,44000,44.0);
+#########################################################################################################
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (6,6000,60.0,'add6',6,6);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (7,7000,70.0,'add7',7,7);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (8,8000,80.0,'add8',8,8);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (9,9000,90.0,'add9',9,9);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (10,10000,100.0,'add10',10,10);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (16,16000,160.0,'add60',16,16);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (19,19000,190.0,'add19',19,19);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (20,20000,200.0,'add20',20,20);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (23,23000,230.0,'add23',23,23);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (25,25000,250.0,'add25',25,25);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (37,37000,370.0,'add37',37,37);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (38,38000,380.0,'add38',38,38);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (40,40000,400.0,'add40',40,40);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (43,43000,430.0,'add43',43,43);
+INSERT INTO Home (adid,price,area,address,rooms,toilets)
+VALUES (45,45000,450.0,'add45',45,45);
+#########################################################################################################
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (11,11,'skills1','Mass Communication','Full Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (12,12,'skills2','IT','Part Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (13,13,'skills3','Accounting','Intern');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (14,14,'skills4','Mass Communication','Intern');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (15,15,'skills5','IT','FullTime');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (17,17,'skills7','Accounting','Full Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (18,18,'skills8','Mass Communication','Intern');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (21,21,'skills11','Accounting','Intern');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (22,22,'skills12','IT','Part Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (24,24,'skills14','Mass Communication','Full Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (26,26,'skills26','Mass Communication','Full Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (29,29,'skills29','IT','Full Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (30,30,'skills30','Accounting','Intern');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (33,33,'skills33','Accounting','Part Time');
+INSERT INTO Job (adid,experience,skills,field,type)
+VALUES (34,34,'skills34','Mass Communication','Part Time');
+#########################################################################################################

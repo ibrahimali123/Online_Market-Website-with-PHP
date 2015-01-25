@@ -1,0 +1,37 @@
+.head{
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center; 
+} 
+.left{
+    float: left;
+    position: relative;
+    left: 5px; 
+    background-color: #101010;
+    background: yellow;
+
+} 
+.right{
+    float: right;
+    position: relative; 
+    right: 5px;
+    background-color: #101010;
+}
+#signup{ 
+    margin-left: 170px;
+} 
+.block_container
+{
+    text-align:center;
+}
+#profile , #name{ 
+  display: inline; 
+}
+/***** Welcome Page ******************/
+ .login , .signup{ 
+  display: inline; 
+}
+/****************************************/
+#name{
+    font-size:40px; color:#FF0000;
+}  

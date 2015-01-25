@@ -1,0 +1,121 @@
+
+//test log in	
+/*
+$controller = new UserMangerController();
+$email = "e" ; $pw = "p";
+$result = $controller->logIn($email, $pw);
+	if  ($result == true )
+		echo "Logged In";
+	else
+		echo "Error"; 
+/*
+*/
+
+//test sign up
+ /*
+$user = new User(0,"zaher2@yahoo.com" , "123456" , "Zaher");
+$result = $controller->signUp($user);
+	if  ($result == true )
+		echo "Signned up";
+	else
+		echo "Error"; 
+
+
+
+
+*/
+
+//create Ad test
+		/*
+$car = new Car( 0, "car1title", "car1desc", "car1image", "Cairo", "Car",    //general ad info
+         1 , "Ahmed" , "0111","note1",    //provider info
+         "Honda", 50000, 250, "2012", 200) ;
+
+ $home = new Home( 0, "home1title", "home1desc", "home1image", "Giza", "Home",    //general ad info
+         1 , "Ahmed" , "0111","note1",    //provider info
+         50000, 270, "Nasr City", 4, 2) ;
+
+ $job = new Job( 0, "job1Title", "jjob1Desc", "job1image", "Suez", "Job Offer",    //general ad info
+         1 , "Ahmed" , "0111","note1",    //provider info
+         3, "Fast", "IT", "Part Time", 3000) ;
+
+$user = new UserMangerController ();
+if($user->createNewAd($car) )
+	echo "Car added !!"."<br>";
+
+if($user->createNewAd($home) )
+	echo "Home added !!"."<br>";
+
+if($user->createNewAd($job) )
+	echo "Job added !!"."<br>";
+	*/
+
+
+
+/********************************************
+DBController
+*******************************************/
+
+//Check Insert User
+/*
+$user = new User(0,"zaher@yahoo.com" , "123456" , "Zaher");
+$db_controller = new DBController();
+echo $db_controller = $db_controller->insertNewUser($user);
+*/
+
+//Check Select User
+
+
+
+/*
+$user = new User(0,"zaher@yahoo.com" , "123456" , "Zaher");
+//$email="zaher@yahoo.com" ;
+$email="ahmed_zaher55@yahoo.com" ;
+$db_controller = new DBController();
+echo  $db_controller->selectUser($email)->getName();
+*/
+
+
+//check insert ad
+
+
+/*
+insert into Ad(title , image , description , place , category , userId , provider_name , provider_mobile , note)
+ values("title1","imag1","desc 1 ","place1" , "catrgory 1" , 1 , "ahmed","011","not1");
+*/
+
+ //check insert car
+  /*
+ $car = new Car( 0, "title2", "desc2", "image1", "Cairo", "Car",    //general ad info
+         1 , "Ahmed" , "0111","note1",    //provider info
+         "Honda", 50000, 200, "2012", 200) ;
+
+ $obj = new DBController();
+ $obj->insertCar($car);
+
+
+ */
+
+  //check insert Home
+ /*
+  $home = new Home( 0, "hometitle2", "homeesc2", "homeimage1", "Cairo", "Home",    //general ad info
+         1 , "Ahmed" , "0111","note1",    //provider info
+         50000, 270, "Nasr City", 4, 2) ;
+
+ $obj = new DBController();
+ $obj->insertHome($home);
+
+ 
+
+ */
+
+  //check insert Job
+ /*
+  $job = new Job( 0, "jobTitle2", "jobDeesc2", "jobimage1", "Giza", "Job",    //general ad info
+         1 , "Ahmed" , "0111","note1",    //provider info
+         3, "Fast", "IT", "Part Time", 3000) ;
+
+ $obj = new DBController();
+ $obj->insertJob($job);
+
+ */

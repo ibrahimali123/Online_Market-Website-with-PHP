@@ -1,0 +1,56 @@
+header .navbar {
+	margin-bottom: 0;
+}
+#carousel {
+	background: #ccc;
+	min-height: 500px;
+}
+#carousel .item{
+	text-align: center;
+}
+#carousel img {
+	display: inline-block;
+}
+.products p {
+	margin: 10px auto;
+	max-width: 600px;
+}
+.products {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.section-title {
+	text-transform: uppercase;
+	text-align: center;
+}
+.products .btn {
+	margin: 15px 0 20px;
+}
+
+.clients {
+	border-top: 1px solid #ccc;
+	background: #eee;
+}
+.clients .media {
+	margin-bottom: 40px;
+}
+.clients .section-title {
+	margin: 30px 0;
+}
+
+.contact textarea.form-control {
+	height: 120px;
+}
+footer {
+	margin-top: 80px;
+	background: #000;
+	color: #fff;
+	line-height: 70px;
+}
+.back-to-top {
+	text-align: right;
+}
+.slick-prev::before, .slick-next::before,
+.slick-prev::after, .slick-next::after {
+	color: #000;
+}
